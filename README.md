@@ -1,6 +1,8 @@
 # Trilha HTML - Dio.me
 ## Módulo 02 - HTML I - Conceitos Básicos
 
+👨‍💻 Projeto publicado em: https://mouraoinfo.github.io/trilha-html-modulo-2/index.html
+
 Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que vimos neste módulo. Os temas que deverão ser abordados são:
 - Formulários
 - Estruturação e formatação de texto
