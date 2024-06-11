@@ -2,16 +2,33 @@ html, body {
     margin: 0;
 }
 body {
-    background-color: #f1f1f1;
+    background-color: #e7afaf;
     display: flex;
     justify-content: center;
 }
 
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #f00;
+}   
+
+h2, h3, p, a{
+    color:  rgb(78, 78, 83);
+    font-family: 'Courier New', Courier, monospace;
+}   
+
 .wrapper {
-    width: 1200px;
+    width: 100%;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: rgb(255, 252, 252);
+    padding: 3%;
+    max-width: 900px;
+
 }
 .main {
     display: flex;
@@ -20,19 +37,34 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color:  rgb(224, 242, 242);
     padding: 10px 20px 0px;
+    border-radius: 10px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
+    background-color: rgb(255, 255, 255);
+    min-height: 100px;
+    border-radius: 10px 10px 10px;
+    display: flex;
+    padding: 10px;
 }
 .content {
-    background-color: white;
+    background-color: rgb(227, 235, 235);
     min-height: 300px;
     padding: 20px;
+    border-radius: 0 10px 10px 0;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    background-color:  rgb(255, 255, 255);
+    min-height: 50px;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+
 }
