@@ -2,7 +2,7 @@ html, body {
     margin: 0;
 }
 body {
-    background-color: #e7afaf;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
 }
@@ -12,9 +12,22 @@ a {
 
 }
 
+a{
+    color: rgb(117, 118, 179);
+}
+
 a:hover {
     color: #f00;
 }   
+
+
+ul li.active a {
+    color: red; /* Cor do link ativo */
+}
+
+
+
+
 
 h2, h3, p, a{
     color:  rgb(78, 78, 83);
@@ -23,8 +36,9 @@ h2, h3, p, a{
 
 .wrapper {
     width: 100%;
+
     display: flex;
-    margin: 0 auto;
+    margin: 0;
     background-color: rgb(255, 252, 252);
     padding: 3%;
     max-width: 900px;
@@ -40,6 +54,7 @@ h2, h3, p, a{
     background-color:  rgb(224, 242, 242);
     padding: 10px 20px 0px;
     border-radius: 10px;
+
 }
 .header {
     background-color: rgb(255, 255, 255);
@@ -49,10 +64,19 @@ h2, h3, p, a{
     padding: 10px;
 }
 .content {
-    background-color: rgb(227, 235, 235);
-    min-height: 300px;
+    background-color: rgb(247, 247, 247);
+    min-height: 400px;
     padding: 20px;
     border-radius: 0 10px 10px 0;
+}
+
+.center-image {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 2px;
+
 }
 .footer {
     background-color:  rgb(255, 255, 255);
@@ -68,3 +92,36 @@ ul {
 
 
 }
+
+.footer p {
+    text-align: center;
+    font-size: 0.8em;
+    color: rgb(78, 78, 83);
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 30PX auto;
+    
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}   
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
